@@ -1,0 +1,77 @@
+
+body{
+    margin:0;
+    font-family:"Cooper";
+    font-size:15px;
+    background:url(../images/23.gif);
+    background-size: cover;
+}
+#sence{
+    /* border:1px solid black; */
+    width:1470px;
+    height:1020px;
+    margin:30px auto;
+    position:relative;
+}
+#change{
+    width:100px;
+    height:50px;
+    border:1px solid black;
+    position:absolute;
+    bottom:150px;
+    left:685px;
+
+    font-size: 2em;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+}
+#change:hover{
+    background: darkgrey;
+    color: white;
+}
+#re-change{
+    width:100px;
+    height:50px;
+    border:1px solid black;
+    position:absolute;
+    bottom:60px;
+    left:685px;
+    /*color: white;*/
+    font-size: 2em;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+}
+#re-change:hover{
+    background: darkgrey;
+    color: white;
+}
+#change-place{
+    width:190px;
+    height:254px;
+    position:absolute;
+    right:230px;
+    bottom:10px;
+}
+#left-place{
+    width:190px;
+    height:254px;
+    position:absolute;
+    left:210px;
+    bottom:10px;
+}
+.puke{
+    position:absolute;
+    width:182px;
+    height:248px;
+    margin:3px;
+    text-align:left;
+    font-size:28px;
+    padding-left:12px;
+    padding-top:6px;
+}
+.clear{
+    clear:both;
+}
+
